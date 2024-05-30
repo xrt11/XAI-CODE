@@ -9,5 +9,5 @@ would be explained using our proposed XAI method, generative images and the sali
 
 'main_train.py' file is designed for training generator and the discriminator.
 
-The number of the image classes (real, fake, normal, disease1, disease2..) could be set at the "self.num_classes" parameter in the "MultiClassDis" module in "networks.py" file.
+The "self.num_classes" parameter in the "MultiClassDis" module in "networks.py" file refers to the number of the image classes (real, fake, normal, disease1, disease2..), which should be changed if the numbers of the image classes change.
 
