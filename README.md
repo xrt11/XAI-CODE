@@ -8,3 +8,4 @@ Run the 'case_explain_show.py' file and the predicted result of the example gene
 would be explained using our proposed XAI method, generative images and the saliency map are output as presented in 'CAE_explain_case_show/'
 
 'main_train.py' file is designed for training generator and the discriminator.
+The "self.num_classes" parameter in the "MultiClassDis" module in "networks.py" file refers to the number of the image classes (real, fake, normal, disease1, disease2..), which should be changed if the numbers of the image classes change.
